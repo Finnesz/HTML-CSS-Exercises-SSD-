@@ -1,0 +1,15 @@
+p {
+  font-family: Arial;
+}
+button {
+  font-family: Arial;
+}
+.question1-container {
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(128, 128, 128);
+  padding-left: 20px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}

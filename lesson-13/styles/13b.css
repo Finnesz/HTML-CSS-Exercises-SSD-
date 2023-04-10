@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.first-element {
+  width: 100px;
+  background-color: lightpink;
+}
+.second-element {
+  width: 200px;
+  background-color: lightblue;
+}
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.row2 {
+  background-color: black;
+  color: white;
+}

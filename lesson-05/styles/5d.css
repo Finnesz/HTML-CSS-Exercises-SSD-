@@ -1,0 +1,21 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.head-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+.sub-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+.link-text {
+  color: rgb(0, 132, 255);
+  cursor: pointer;
+}
+.link-text:hover {
+  text-decoration: underline;
+}

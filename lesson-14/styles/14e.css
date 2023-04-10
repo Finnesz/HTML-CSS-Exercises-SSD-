@@ -1,0 +1,60 @@
+body {
+  margin-bottom: 1000px;
+  background-color: gray;
+}
+p, button {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  background-color: rgb(255, 255, 255);
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 70px;
+}
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.right-section {
+  margin-right: 70px;
+}
+.add-button, .message-button {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 5px;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 7px;
+  padding-right: 7px;
+  width: 100px;
+}
+.message-button {
+  background-color: rgb(201, 201, 201);
+  color: black;
+}

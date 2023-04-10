@@ -1,0 +1,23 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.money-text {
+  font-size: 30px; 
+}
+.currency-text {
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+}
+.inflation-text {
+  font-size: 15px;
+  color: rgb(0, 128, 0);
+}
+.deflation-text {
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+}
+.deflation-percent {
+  color: rgb(255, 0, 0);
+}

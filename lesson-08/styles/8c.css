@@ -1,0 +1,19 @@
+.google-search {
+  font-size: 15px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width: 500px;
+  border-radius: 50px
+}
+.google-search:focus {
+  outline: none;
+}
+.google-logo {
+  display: block;
+  width: 200px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,68 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  display: inline-block;
+}
+
+.inbox-list {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15)
+}
+
+.inbox-messages {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  color: gray;
+  font-size: 15px;
+}
+
+.inbox {
+  margin-bottom:35px;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.sender-profile {
+  width: 60px;
+  height: 120px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.sender-profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin-top: 5px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.title {
+  font-size: 17px;
+  font-weight: bold;
+}
+.time {
+  color: gray;
+  font-size: 15px;
+}
+.sub-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.message {
+  font-size: 16px;
+  color: gray;
+}

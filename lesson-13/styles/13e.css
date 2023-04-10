@@ -1,0 +1,99 @@
+p {
+  font-family: Tahoma;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+.tweets {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15)
+}
+.tweet-post {
+  display: flex;
+  flex-direction: row;
+  
+  width: 500px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.profile {
+  width: 80px;
+  margin-right: 10px;
+}
+.profile-picture {
+  width: 65px;
+  height: 65px;
+
+  border-radius: 33px;
+}
+
+.tweet-message {
+  display: flex;
+  flex-direction: column;
+}
+.post-info {
+  margin-bottom: 10px;
+}
+.twitter-user {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.email {
+  font-weight: normal;
+  color: rgba(83, 83, 83, 0.5);
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.email:hover {
+  text-decoration: underline;
+  color: rgba(83, 83, 83, 1);
+}
+.tweet {
+  width: 400px;
+}
+.video-container {
+  display: flex;
+  flex-direction: row;
+
+}
+.video-link {
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-style: solid;
+  border-color:rgba(83, 83, 83, 0.5);
+  border-radius: 10px;
+  width: 340px;
+
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+.thumbnail {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.video-website {
+  color: rgb(90, 90, 90);
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+.video-preview {
+  width: 250px;
+  margin-left: 10px;
+  color: black;
+}
+.video-link:hover {
+  opacity: 0.6;
+}
+.link {
+  text-decoration: none;
+}

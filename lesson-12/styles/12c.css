@@ -1,0 +1,7 @@
+.layout {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  background-color: lightpink;
+}

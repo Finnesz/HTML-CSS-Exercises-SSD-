@@ -1,0 +1,23 @@
+p {
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.product-name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.order-text {
+  font-size: 19px;
+}
+
+.link-text {
+  cursor: pointer;
+}
+.link-text:hover {
+  text-decoration: underline;
+}
